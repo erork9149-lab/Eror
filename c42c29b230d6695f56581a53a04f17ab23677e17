@@ -1,0 +1,17 @@
+  POST https://cloudresourcemanager.googleapis.com/v3/projects/
+  Authorization: *************
+  Content-Type: application/json
+
+  {
+    "projectId": "our-project-456",
+    "name": "my project",
+    "parent": "organizations/123",
+    "tags": {
+      "key": "123/environment"
+      "value": "production"
+    },
+"tags": {
+      "key": "123/costCenter"
+      "value": "marketing"
+  }
+}
